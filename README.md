@@ -9,7 +9,7 @@ More info about Api.ai webhooks could be found here:
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 # What does the service do?
-It's a search a person service that uses [TMDb API](https://www.themoviedb.org/).
+It's a search a movie service that uses [TMDb API](https://www.themoviedb.org/).
 The services takes the `geo-city` parameter from the action, performs geolocation for the city and requests weather information from Yahoo! Weather public API. 
 
 The service packs the result in the Api.ai webhook-compatible response JSON and returns it to Api.ai.
